@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    border: solid black;
+    border-width: thin;
+
+  }
+
+  body {
+    overflow:auto;
+    margin: auto;
+    
+  }
+  
+  div{
+    overflow: auto;
+    position: relative;
+  }
+
+p{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+
+}
