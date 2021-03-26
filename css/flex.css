@@ -65,7 +65,7 @@ background-color: lightgray;
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */
 /* -------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 834px){
+@media only screen and  (min-width: 768px)  {
     .container{
         width: 960px;
         height: 768px;
