@@ -1,44 +1,45 @@
-@media (min-width: 480px) and (max-width: 767px){
-body{
+@media (min-width: 480px) and (max-width: 767px) {
+  body {
     margin: auto;
-}
-#header{
+  }
+  #header {
     display: block;
-}
-.row{
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .row {
     display: block;
     background-color: lightgray;
     border: solid black;
-    
+
     border-width: thin;
     text-align: center;
-    
- height: 150px;
-    width: 480px;
-}
 
-.efgh{
-    width: 480px;
-}
+    height: 150px;
+    width: 100%;
+  }
 
-.devided-row{
+  .efgh {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .devided-row {
     float: left;
     text-align: center;
     border: solid black;
     border-width: thin;
     background-color: lightgray;
 
-    width: 240px;
+    width: 50%;
     height: 250px;
-   
+  }
 }
 
-
-
-}
-
-
-@media (min-width: 768px) and (max-width: 960px){
+@media only screen and (min-width: 768px) {
    
 .container{
     background-color: lightgray;
